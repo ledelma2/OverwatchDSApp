@@ -2,6 +2,7 @@
 Personal data science project to help analyze my performance in overwatch.
 
 Stage 1: The Database
+
 The database will contain tables of Maps, Heroes, General Match Stats, and Specific Match Stats.
 The database is farily modifiable so as to work with other competetive games in the future.
 I.E. for CS:GO replace the Heroes table with Guns. While it would be nice to use an API to 
