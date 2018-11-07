@@ -16,7 +16,8 @@ Stage 2: The Machine Learning Algorithm
 After spending an unspecified amount of time collecting match data competetive overwatch, I 
 will load the data into the database and utilize a machine learning algorithm to analyze my
 performance. The algorithm in question will likely be a Neural Network or a K-Means Clustering
-algorithm. The language used for this stage will almost certainly be Python.
+algorithm. The language used for this stage will almost certainly be Python for its ML library
+and dynamic type inferencing.
 
 Stage 3: Data Analysis
 With the machine learning algorithm (hopefully) working within acceptable error numbers, we need
