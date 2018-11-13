@@ -8,6 +8,12 @@ The database is farily modifiable so as to work with other competetive games in 
 I.E. for CS:GO replace the Heroes table with Guns. While it would be nice to use an API to 
 scrape the match data off of Blizzard's servers, I do not believe one exists.
 
+EDIT 11/13/18:
+Data input has begun, though inserting data by hand after every match is incredibly tedious. To
+bypass this process I'm going to be creating a simple webscraper in Python to get my updated
+total data for the competitive season, and then calculate the the current match data by comparing
+to previous total data.
+
 Stage 1.5: The GUI
 If a GUI is implemented to insert data into the database, the language used will likely be C#
 in order to utilize LINQ or Python to utilize NoSQL.
