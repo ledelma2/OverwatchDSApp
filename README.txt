@@ -13,6 +13,10 @@ Data input has begun, though inserting data by hand after every match is incredi
 bypass this process I'm going to be creating a simple webscraper in Python to get my updated
 total data for the competitive season, and then calculate the the current match data by comparing
 to previous total data.
+EDIT 11/16/18:
+Because Blizzard's site is very "rich" in HTML I'm also going to be utilitizing the python-overwatch
+API to help gather info. However, I may also have to make changes to the package's main script
+since, for some reason, I get a "HeroNotFound" exception when looking for Brgitte.
 
 Stage 1.5: The GUI
 If a GUI is implemented to insert data into the database, the language used will likely be C#
