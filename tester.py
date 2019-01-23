@@ -5,4 +5,4 @@ from overwatch import Overwatch
 
 
 overwatch = Overwatch(battletag="Serb#11472")
-print(overwatch(mode="cp", hero="ana", filter="assists"))
+print(overwatch(mode="cp", hero="ashe", filter="combat"))
