@@ -14,12 +14,17 @@ bypass this process I'm going to be creating a simple webscraper in Python to ge
 total data for the competitive season, and then calculate the the current match data by comparing
 to previous total data.
 
+EDIT 11/16/18:
+Because Blizzard's site is very "rich" in HTML I'm also going to be utilizing the python-overwatch
+API to help gather info. However, I may also have to make changes to the package's main script
+since, for some reason, I get a "HeroNotFound" exception when looking for Brigitte.
+
 Stage 1.5: The GUI
 If a GUI is implemented to insert data into the database, the language used will likely be C#
 in order to utilize LINQ or Python to utilize NoSQL.
 
 Stage 2: The Machine Learning Algorithm
-After spending an unspecified amount of time collecting match data competetive overwatch, I 
+After spending an unspecified amount of time collecting match data from competetive overwatch, I 
 will load the data into the database and utilize a machine learning algorithm to analyze my
 performance. The algorithm in question will likely be a Neural Network or a K-Means Clustering
 algorithm. The language used for this stage will almost certainly be Python for its ML library
