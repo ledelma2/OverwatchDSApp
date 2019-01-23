@@ -19,6 +19,13 @@ Because Blizzard's site is very "rich" in HTML I'm also going to be utilizing th
 API to help gather info. However, I may also have to make changes to the package's main script
 since, for some reason, I get a "HeroNotFound" exception when looking for Brigitte.
 
+EDIT 1/23/19:
+The "HeroNotFound" exception was due to the python-overwatch API using an array of size 2 to access
+both quickplay and competetive stats. When quickplay stats are missing the real competitive index gets
+decremented by 1 therefore forcing the "HeroNotFound" exception. After finishing the whole project I
+will likely go and add a fix for this bug, but for now I will just put play time in qp for all heroes.
+Also added support for Ashe.
+
 Stage 1.5: The GUI
 If a GUI is implemented to insert data into the database, the language used will likely be C#
 in order to utilize LINQ or Python to utilize NoSQL.
