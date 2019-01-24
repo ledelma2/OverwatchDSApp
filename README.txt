@@ -26,6 +26,10 @@ decremented by 1 therefore forcing the "HeroNotFound" exception. After finishing
 will likely go and add a fix for this bug, but for now I will just put play time in qp for all heroes.
 Also added support for Ashe.
 
+EDIT 1/24/19:
+Added database access through the use of the pyodbc module (https://github.com/mkleehammer/pyodbc). 
+Connection the microsoft access database is now possible.
+
 Stage 1.5: The GUI
 If a GUI is implemented to insert data into the database, the language used will likely be C#
 in order to utilize LINQ or Python to utilize NoSQL.
