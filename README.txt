@@ -1,4 +1,4 @@
-# OverwatchDSApp
+#OverwatchDSApp#
 Personal data science project to help analyze my performance in overwatch.
 
 Stage 1: The Database
@@ -23,8 +23,8 @@ EDIT 1/23/19:
 The "HeroNotFound" exception was due to the python-overwatch API using an array of size 2 to access
 both quickplay and competetive stats. When quickplay stats are missing the real competitive index gets
 decremented by 1 therefore forcing the "HeroNotFound" exception. After finishing the whole project I
-will likely go and add a fix for this bug, but for now I will just put play time in qp for all heroes.
-Also added support for Ashe.
+will likely go and add a fix for this bug, but for now I will just put play time in qp for all heroes
+to avoid the bug. Added support for Ashe.
 
 EDIT 1/24/19:
 Added database access through the use of the pyodbc module (https://github.com/mkleehammer/pyodbc). 
