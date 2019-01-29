@@ -30,6 +30,9 @@ EDIT 1/24/19:
 Added database access through the use of the pyodbc module (https://github.com/mkleehammer/pyodbc). 
 Connection the microsoft access database is now possible.
 
+EDIT 1/29/19:
+Added the GetInfo() function which collects all the relevant data for each hero.
+
 Stage 1.5: The GUI
 If a GUI is implemented to insert data into the database, the language used will likely be C#
 in order to utilize LINQ or Python to utilize NoSQL.
